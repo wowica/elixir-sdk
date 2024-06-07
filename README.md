@@ -1,6 +1,6 @@
 # Elixir SDK
 
-Elixir UTxO RPC SDK
+Elixir UTxO RPC SDK following the [UTxO RPC Spec](https://github.com/utxorpc/spec)
 
 ![](docs/utxo-rpc.gif)
 

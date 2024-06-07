@@ -21,7 +21,10 @@ defmodule ElixirSdk.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:protobuf, "~> 0.12.0"}
+      {:protobuf, "~> 0.12.0"},
+      # Must use this fork of grpc
+      {:grpc, github: "caike/grpc"},
+      {:castore, "~> 1.0"}
     ]
   end
 end

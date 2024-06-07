@@ -1,18 +1,5 @@
-defmodule ElixirSdk do
-  @moduledoc """
-  Documentation for `ElixirSdk`.
-  """
+defmodule ElixirSdk.UtxorpcClient do
+  alias ElixirSdk.FollowTip
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ElixirSdk.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  def follow_tip, do: FollowTip.run()
 end

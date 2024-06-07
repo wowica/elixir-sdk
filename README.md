@@ -12,7 +12,14 @@ Clone the repo and fetch [its submodule](https://github.com/utxorpc/spec) with t
 git clone --recurse-submodules http://github.com/wowica/elixir-sdk
 ```
 
-The follow tip example can be run with the following command:
+Install compiler and library dependencies with:
+
+```
+asdf install
+mix deps.get
+```
+
+The "follow tip" example can be run with the following command:
 
 ```
 API_KEY="your-demeter-api-key" mix run -e "ElixirSdk.UtxorpcClient.follow_tip"

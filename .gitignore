@@ -24,5 +24,4 @@ elixir_sdk-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
-spec
 .iex.exs

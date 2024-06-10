@@ -1,5 +1,5 @@
 defmodule ElixirSdk.UtxorpcClient do
-  alias ElixirSdk.FollowTip
+  alias ElixirSdk.ChainSync
 
-  def follow_tip, do: FollowTip.run()
+  defdelegate follow_tip, to: ChainSync
 end

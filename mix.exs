@@ -23,7 +23,7 @@ defmodule ElixirSdk.MixProject do
     [
       {:protobuf, "~> 0.12.0"},
       # Must use this fork of grpc
-      {:grpc, github: "caike/grpc"},
+      {:grpc, github: "caike/grpc", ref: "e19165d9a92e8d06da2f25a11d49e3d610e25289"},
       {:castore, "~> 1.0"}
     ]
   end
